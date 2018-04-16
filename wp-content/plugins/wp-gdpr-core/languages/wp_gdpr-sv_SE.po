@@ -1,0 +1,531 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP GDPR\n"
+"POT-Creation-Date: 2018-03-29 15:09+0200\n"
+"PO-Revision-Date: 2018-03-29 16:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-gdpr-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: config/startup-config.php:50
+msgid "GDPR - Request personal data"
+msgstr "GDPR - begäran av personlig data"
+
+#: controller/controller-comments.php:113
+#: controller/controller-menu-page.php:269
+msgid ""
+"This form collects your name, email and content so that we can keep track of "
+"the comments placed on the website. For more info check our privacy policy "
+"where you'll get more info on where, how and why we store your data."
+msgstr ""
+"Vi respekterar din personliga integritet men för att kunna lägga in "
+"kommentarer behöver vi ditt godkännande att lagra dina uppgifter. Genom att "
+"kryssa i rutan och kommentera produkterna accepterar du lagring och "
+"hantering av dina uppgifter på denna webbplats. Du kan när som helst begära "
+"att din personliga data raderas. Vänligen läs mer i vår integritetspolicy "
+"längst ner på vår sida."
+
+#: controller/controller-comments.php:200
+#: controller/controller-comments.php:205
+msgid ""
+"<strong>ERROR</strong>: please fill the required fields (GDPR checkbox)."
+msgstr ""
+"<strong>FEL</strong>: Fyll i de obligatoriska fälten (GDPR godkännande)."
+
+#: controller/controller-comments.php:224
+msgid "Something went wrong."
+msgstr "Något gick fel."
+
+#: controller/controller-comments.php:231
+msgid "Email is not valid"
+msgstr "E-postadressen är inte giltig"
+
+#: controller/controller-comments.php:247
+msgid "Comment is changed"
+msgstr "Kommentaren har ändrats"
+
+#: controller/controller-comments.php:329
+msgid "name"
+msgstr "namn"
+
+#: controller/controller-comments.php:330
+#: controller/controller-menu-page.php:359
+#: controller/controller-menu-page.php:610
+msgid "email"
+msgstr "epost"
+
+#: controller/controller-comments.php:331
+msgid "comment"
+msgstr "kommentar"
+
+#: controller/controller-comments.php:332
+msgid "website"
+msgstr "webbplats"
+
+#: controller/controller-comments.php:373
+msgid "comment date"
+msgstr "kommentar datum"
+
+#: controller/controller-comments.php:374
+msgid "author email"
+msgstr "epost"
+
+#: controller/controller-comments.php:375
+msgid "author name"
+msgstr "Namn"
+
+#: controller/controller-comments.php:376
+msgid "comment content"
+msgstr "kommentar innehåll"
+
+#: controller/controller-comments.php:377
+msgid "post ID"
+msgstr "inslagets ID"
+
+#: controller/controller-comments.php:378
+msgid "delete"
+msgstr "ta bort"
+
+#: controller/controller-comments.php:474
+msgid "The site administrator received your request. Thank You."
+msgstr "Sidans administratör har fått din begäran. Tack."
+
+#: controller/controller-comments.php:482
+msgid "New delete request"
+msgstr "Ny begäran om bortagning"
+
+#: controller/controller-menu-page.php:80
+msgid "Comments deleted"
+msgstr "Kommentar borttagen"
+
+#: controller/controller-menu-page.php:99
+msgid "Comments are anonymous"
+msgstr "Kommentaren är anonym"
+
+#: controller/controller-menu-page.php:119
+msgid "We confirm Your data deletion request"
+msgstr "Vi bekräftar din begäran om borttagning"
+
+#: controller/controller-menu-page.php:230
+msgid "Comment author"
+msgstr "Kommentar av"
+
+#: controller/controller-menu-page.php:230
+msgid "content"
+msgstr "Innehåll"
+
+#: controller/controller-menu-page.php:242
+msgid "Request send"
+msgstr "Begäran skickad"
+
+#: controller/controller-menu-page.php:265
+msgid "Checkbox GDPR is required"
+msgstr "Vänligen kryssa i ruta för att godkänna"
+
+#: controller/controller-menu-page.php:273
+#, fuzzy
+#| msgid "Agree"
+msgid "I agree"
+msgstr "Jag godkänner"
+
+#: controller/controller-menu-page.php:278
+#, php-format
+msgid ""
+"I consent to having %s collect my email so that they can send me my "
+"requested info.\n"
+"            For more info check our privacy policy where you'll get more "
+"info on where, how and why we store your data."
+msgstr ""
+"I samtycker till att %s får tillgång till min email så att de kan sända mig "
+"begärd information.\n"
+"            För mera information, se vår integritetspolicy där det anges "
+"var, hur och varför vi lagrar information om dig."
+
+#: controller/controller-menu-page.php:306
+#, fuzzy
+#| msgid "Download comments"
+msgid "Don't show comments"
+msgstr "Ladda ner kommentarer"
+
+#: controller/controller-menu-page.php:311
+msgid "Set Your DPO e-mail address"
+msgstr ""
+
+#: controller/controller-menu-page.php:358
+#: controller/controller-menu-page.php:609
+msgid "id"
+msgstr "id"
+
+#: controller/controller-menu-page.php:360
+#: controller/controller-menu-page.php:614
+msgid "requested at"
+msgstr "begärd den"
+
+#: controller/controller-menu-page.php:361
+#: controller/controller-menu-page.php:612
+msgid "status"
+msgstr "status"
+
+#: controller/controller-menu-page.php:362
+msgid "language"
+msgstr ""
+
+#: controller/controller-menu-page.php:363
+msgid "resend email"
+msgstr "skicka igen"
+
+#: controller/controller-menu-page.php:413
+msgid "comments"
+msgstr "kommentarer"
+
+#: controller/controller-menu-page.php:416
+msgid "gravity form entries"
+msgstr "gravity form inlägg"
+
+#: controller/controller-menu-page.php:419
+msgid "cfdb7 db entries"
+msgstr ""
+
+#: controller/controller-menu-page.php:422
+msgid "woocommerce"
+msgstr ""
+
+#: controller/controller-menu-page.php:462
+msgid "waiting for email"
+msgstr "väntar på epost"
+
+#: controller/controller-menu-page.php:465
+msgid "email sent"
+msgstr "epost skickat"
+
+#: controller/controller-menu-page.php:468
+msgid "url is visited"
+msgstr "url besöktes"
+
+#: controller/controller-menu-page.php:509
+msgid "Data request"
+msgstr "Data begärd"
+
+#: controller/controller-menu-page.php:519
+msgid "Email sent"
+msgstr "Epost skickad"
+
+#: controller/controller-menu-page.php:611
+msgid "data(ID)"
+msgstr "data(ID)"
+
+#: controller/controller-menu-page.php:613
+msgid "type"
+msgstr "typ"
+
+#: controller/controller-menu-page.php:615
+msgid "select"
+msgstr "välj"
+
+#: controller/controller-menu-page.php:639
+msgid "waiting to process"
+msgstr "under bearbetning"
+
+#: controller/controller-menu-page.php:642
+msgid "deleted"
+msgstr "borttagen"
+
+#: controller/controller-menu-page.php:645
+msgid "anonymous"
+msgstr "anonym"
+
+#: controller/controller-menu-page.php:656
+msgid "processed"
+msgstr "bearbetad"
+
+#: controller/controller-menu-page.php:690
+msgid "plugin name"
+msgstr "tilläggets namn"
+
+#: controller/controller-menu-page.php:757
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings saved"
+msgstr "Inställningar"
+
+#: lib/gdpr-form-builder.php:33
+msgid "Request add-on for your plugin"
+msgstr "Begär add-on för ditt tillägg "
+
+#: lib/gdpr-form-builder.php:35 view/front/form.php:8
+msgid "Email"
+msgstr "Epost"
+
+#: lib/gdpr-form-builder.php:38
+#, php-format
+msgid ""
+"This form collects your email so that we can keep you updated about your "
+"request. Check out our %s for more information."
+msgstr ""
+"Detta formulär registrerar din epost så att vi kan hålla dig uppdaterad om "
+"din begäran. Se våra %s för mera information."
+
+#: lib/gdpr-form-builder.php:39
+msgid "privacy policy"
+msgstr "integritetspolicy"
+
+#: lib/gdpr-form-builder.php:43
+msgid "I consent to having WP-GDPR collect my email when provided."
+msgstr "I samtycker till att WP-GDPR får tillgång till min epost."
+
+#: lib/gdpr-form-builder.php:44
+msgid "submit"
+msgstr "skicka"
+
+#: lib/gdpr-menu-backend.php:26
+msgid "List of data requests"
+msgstr "Lista på dataförfrågningar"
+
+#: lib/gdpr-menu-backend.php:27 view/admin/menu/delete-page.php:12
+msgid "List of delete requests"
+msgstr "Lista på raderingsförfrågningar"
+
+#: lib/gdpr-menu-backend.php:28
+msgid "List of plugins"
+msgstr "Lista över tillägg"
+
+#: lib/gdpr-menu-backend.php:29
+msgid "Settings"
+msgstr "Inställningar"
+
+#: lib/gdpr-menu-backend.php:30
+msgid "Help"
+msgstr ""
+
+#: model/request-form.php:103
+#, fuzzy
+#| msgid "Data request"
+msgid "Your data request"
+msgstr "Data begärd"
+
+#: view/admin/delete-comments-form.php:8
+#, fuzzy
+#| msgid "GDPR - Request personal data"
+msgid "Delete personal data"
+msgstr "GDPR - begäran av personlig data"
+
+#: view/admin/delete-comments-form.php:9
+#, fuzzy
+#| msgid "Make comments anonymous"
+msgid "Make personal data anonymous"
+msgstr "Gör kommentar anonym"
+
+#: view/admin/email-confirmation-content.php:114
+#: view/front/email-template.php:103
+msgid "Request to view your personal data"
+msgstr "Begär att visa dina personuppgifter"
+
+#: view/admin/email-confirmation-content.php:126
+#: view/admin/email-delete-request.php:126 view/front/email-template.php:112
+msgid "Dear Sir / Madam"
+msgstr "Hej"
+
+#: view/admin/email-confirmation-content.php:128
+msgid "You asked to delete your personal data at "
+msgstr "Du har begärt att radera dina personuppgifter på "
+
+#: view/admin/email-confirmation-content.php:129
+msgid "Website:"
+msgstr "Webbplats:"
+
+#: view/admin/email-confirmation-content.php:130
+#, fuzzy
+#| msgid "Data request"
+msgid "Date of request:"
+msgstr "Data begärd"
+
+#: view/admin/email-confirmation-content.php:131
+msgid "Your requests is approved and data was successfully deleted today."
+msgstr "Din begäran har godkänts och informationen blev borttagen idag."
+
+#: view/admin/email-confirmation-content.php:132
+#: view/front/email-template.php:129
+msgid "Thanks for contacting us."
+msgstr "Tack för att du kontaktade oss."
+
+#: view/admin/email-confirmation-content.php:146
+msgid "List of processed data"
+msgstr "Lista över behandlade data"
+
+#: view/admin/email-delete-request.php:114
+msgid "Request to delete personal data"
+msgstr "Begäran att ta bort personlig data"
+
+#: view/admin/email-delete-request.php:128
+msgid "asked to delete his/her personal data."
+msgstr "begärde att ta bort dennes personliga data."
+
+#: view/admin/email-delete-request.php:132
+msgid "Check all requests"
+msgstr "Kontrollera alla förfrågningar"
+
+#: view/admin/menu/data-page.php:7
+msgid "List of users that requested for information"
+msgstr "Lista över användare som begärt information"
+
+#: view/admin/menu/help_page.php:7
+msgid "On this page will come info and help for the plugin"
+msgstr ""
+
+#: view/admin/menu/plugin-page.php:12
+msgid "List of plugins that store data of users"
+msgstr "Lista på tillägg som lagrar användardata"
+
+#: view/admin/menu/settings-list.php:32
+#, fuzzy
+#| msgid "Settings"
+msgid "Update settings"
+msgstr "Inställningar"
+
+#: view/admin/menu/settings-page.php:13
+#, fuzzy
+#| msgid "Privacy policy link"
+msgid "Privacy policy setting"
+msgstr "Länk till integritetspolicy"
+
+#: view/admin/menu/settings-page.php:16
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings:"
+msgstr "Inställningar"
+
+#: view/admin/privacy-policy-form.php:7
+msgid "Settings for comment forms"
+msgstr ""
+
+#: view/admin/privacy-policy-form.php:9
+#, fuzzy
+#| msgid "Privacy policy link"
+msgid "Privacy policy label"
+msgstr "Länk till integritetspolicy"
+
+#: view/admin/privacy-policy-form.php:13 view/admin/privacy-policy-form.php:36
+#, fuzzy
+#| msgid "Privacy policy link"
+msgid "Privacy policy text"
+msgstr "Länk till integritetspolicy"
+
+#: view/admin/privacy-policy-form.php:30
+#, fuzzy
+#| msgid "Privacy policy link"
+msgid "Privacy policy checkbox"
+msgstr "Länk till integritetspolicy"
+
+#: view/admin/privacy-policy-form.php:34
+msgid "Settings for personal data request page"
+msgstr ""
+
+#: view/admin/privacy-policy-form.php:52
+#, fuzzy
+#| msgid "Privacy policy link"
+msgid "Update privacy policy settings"
+msgstr "Länk till integritetspolicy"
+
+#: view/admin/small-form-delete-request.php:9
+msgid "Send delete request"
+msgstr "Skicka raderingsförfrågan"
+
+#: view/admin/small-form-delete-request.php:10
+msgid "Download comments"
+msgstr "Ladda ner kommentarer"
+
+#: view/admin/small-form.php:9
+msgid "Resend emails"
+msgstr "Skicka epost igen"
+
+#: view/front/email-template.php:113
+msgid ""
+"You asked to access your personal data. By clicking on the button you can "
+"view or delete your comments created on the website:"
+msgstr ""
+"Du bad om att få tillgång till dina personuppgifter. Genom att klicka på "
+"knappen kan du se eller ta bort dina kommentarer som skapats på webbplatsen:"
+
+#: view/front/email-template.php:121
+#, fuzzy
+#| msgid "Request to view your personal data"
+msgid "Check your personal data"
+msgstr "Begär att visa dina personuppgifter"
+
+#: view/front/form.php:17
+msgid "Submit"
+msgstr "Skicka"
+
+#: view/front/form.php:20
+#, fuzzy
+#| msgid "Thank You! We will send you email in 48h."
+msgid ""
+"Thank You! We will send you an email with a link to access your personal "
+"data."
+msgstr "Tack. Vi återkommer via email inom 48 timmar."
+
+#: view/front/form.php:22
+msgid "Warning:"
+msgstr "Varning:"
+
+#: view/front/form.php:22
+msgid "This link will become deprecated after 48 hours."
+msgstr ""
+
+#: view/front/gdpr-template.php:7
+msgid "View Comments"
+msgstr "Se kommentarer"
+
+#: view/front/gdpr-template.php:16
+msgid "All comments added by email address"
+msgstr "Alla kommentarer skrivna med min epostadress"
+
+#. Plugin Name of the plugin/theme
+msgid "WP GDPR"
+msgstr "WP GDPR"
+
+#. Description of the plugin/theme
+msgid "Help to handle gdpr regulations."
+msgstr "Hjälp med att hantera GDPR förfrågningar"
+
+#. Author of the plugin/theme
+msgid "AppSaloon"
+msgstr "AppSaloon"
+
+#. Author URI of the plugin/theme
+msgid "https://www.appsaloon.be"
+msgstr "https://www.appsaloon.be"
+
+#~ msgid ""
+#~ "This form collects your name, email and content so that we can keep track "
+#~ "of the comments placed on the website. For more info check our %s where "
+#~ "you'll get more info on where, how and why we store your data."
+#~ msgstr ""
+#~ "Vi respekterar din personliga integritet men för att du ska kunna "
+#~ "kommentera behöver du godkänna att vi lagrar dina uppgifter. Genom att "
+#~ "kryssa i rutan och kommentera accepterar du lagring och hantering av dina "
+#~ "uppgifter på denna webbplats. Du kan när som helst begära att din "
+#~ "personliga data raderas. Vänligen läs mer i våra %s längst ner på sidan."
+
+#~ msgid "Delete comments"
+#~ msgstr "Ta bort kommentarer"
+
+#~ msgid "Update url"
+#~ msgstr "Uppdatera url"
+
+#~ msgid "Check your comments"
+#~ msgstr "Kontrollera dina kommentarer"

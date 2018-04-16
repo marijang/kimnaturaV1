@@ -1,0 +1,248 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+$mycolor: #444;
+
+
+
+
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #d33a2c;
+}
+
+
+
+
+
+// in SCSS we nest
+nav {
+  // in CSS this was selected by nav a
+  a {
+    
+    font-weight: 600;
+    box-sizing: border-box;
+    color: #171717;
+    font-size: 16px;
+    line-height: 23px;
+    vertical-align: middle;
+
+    // change a on hover example
+    // in CSS this was selected by nav a:hover
+    &:hover {
+      color: $primary !important;
+    }
+  }
+}
+
+a .item-text{
+    position: relative;
+    color: #171717;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0 15px;
+    display: block;
+}
+a:hover .item-text:before {
+  -webkit-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+a .item-text:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 11px;
+  width: 12px;
+  background: currentColor;
+  height: 2px;
+  transform-origin: left;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transform: scale(0,1);
+  -moz-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+
+.btn {
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 78px;
+  position: relative;
+  text-align: center;
+  transition: all .2s ease-in-out 0s;
+  -o-transition: all .2s ease-in-out 0s;
+  -moz-transition: all .2s ease-in-out 0s;
+  -webkit-transition: all .2s ease-in-out 0s;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn .line-1,
+.btn .line-2,
+.btn .line-3,
+.btn .line-4 {
+    content: "\A";
+    display: block;
+    position: absolute;
+    background-color: #fff
+}
+
+.btn .line-1,
+.btn .line-3 {
+    width: 1px
+}
+
+.btn .line-2,
+.btn .line-4 {
+    height: 1px
+}
+
+.btn .line-1 {
+    left: -1px;
+    bottom: -1px;
+    animation: b 1.5s infinite ease
+}
+
+.btn .line-2 {
+    top: -1px;
+    left: -1px;
+    animation: c 1.5s infinite ease
+}
+
+.btn .line-3 {
+    top: -1px;
+    right: -1px;
+    animation: d 1.5s infinite ease
+}
+
+.btn .line-4 {
+    right: -1px;
+    bottom: -1px;
+    animation: e 1.5s infinite ease
+}
+
+.btn:hover {
+    border: 1px solid transparent
+}
+
+.btn .line-1,
+.btn .line-2,
+.btn .line-3,
+.btn .line-4 {
+    background-color: #000
+}
+
+.btn:hover {
+    border: 1px solid transparent
+}
+
+.btn.btn--black {
+    color: #000;
+    border: 1px solid #000
+}
+
+.btn.btn--black .line-1,
+.btn.btn--black .line-2,
+.btn.btn--black .line-3,
+.btn.btn--black .line-4 {
+    background-color: #000
+}
+
+.btn.btn--black:hover {
+    border: 1px solid transparent
+}
+
+
+@keyframes a {
+  0% {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(1turn)
+  }
+}
+
+@keyframes b {
+  0% {
+      height: 100%;
+      bottom: 0
+  }
+  54% {
+      height: 0;
+      bottom: 100%
+  }
+  55% {
+      height: 0;
+      bottom: 0
+  }
+  to {
+      height: 100%;
+      bottom: 0
+  }
+}
+
+@keyframes c {
+  0% {
+      width: 0;
+      left: 0
+  }
+  50% {
+      width: 100%;
+      left: 0
+  }
+  to {
+      width: 0;
+      left: 100%
+  }
+}
+
+@keyframes d {
+  0% {
+      height: 100%;
+      top: 0
+  }
+  54% {
+      height: 0;
+      top: 100%
+  }
+  55% {
+      height: 0;
+      top: 0
+  }
+  to {
+      height: 100%;
+      top: 0
+  }
+}
+
+@keyframes e {
+  0% {
+      width: 0;
+      right: 0
+  }
+  55% {
+      width: 100%;
+      right: 0
+  }
+  to {
+      width: 0;
+      right: 100%
+  }
+}
